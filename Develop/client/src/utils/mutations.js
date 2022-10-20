@@ -32,12 +32,12 @@ export const SAVE_BOOK = gql`
       email
       bookCount
       savedBooks {
-        bookId
         authors
+        description
+        bookId
         image
         link
         title
-        description
       }
     }
   }
@@ -51,12 +51,12 @@ mutation removeBook($bookid: ID!) {
       email
       bookCount
       savedBooks {
-        bookId
         authors
+        description
+        bookId
         image
         link
         title
-        description
       }
     }
   }
