@@ -24,6 +24,14 @@ const typeDefs = gql`
     user: User
   }
 
+  type Query {
+    users: [User]
+    user(username: String!): User
+    thoughts(username: String): [Thought]
+    thought(thoughtId: ID!): Thought
+    me: User
+  }
+
   input addBookInput {
     bookId: String
     authors: [String]
