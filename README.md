@@ -10,3 +10,6 @@ This app uses the following Technologies:
 * jsonWebtoken
 
 At the moment the application is not working, but once is fixed it can be found [Here](https://link-url-here.org).
+
+See a screenshot of the application here:
+![alt text](./client/public/Screen%20Shot%202022-11-04%20at%204.36.40%20PM.png)
